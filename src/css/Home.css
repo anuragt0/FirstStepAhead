@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.home-page {
+    background-color: #ecf0f2;
+}
+
+.header__container {
+    gap: 2rem !important;
+}
+
+.home__heading {
+    letter-spacing: 0rem !important;
+    line-height: 4.5rem;
+}
+
+.home__widget {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.home__widget--icon {
+    color: #ff9635;
+}
+
+.home__widget--span {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home__btns {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 0.9rem;
+}
+
+.home__btn1 {
+    background-color: #ff9635;
+    padding: 15px 30px;
+    border-radius: 100px;
+
+    transition: all 0.25s;
+}
+
+.home__btn2 {
+    display: flex;
+    align-items: center;
+    transition: all 0.25s;
+}
+
+.home__btn1:hover {
+    background-color: #007991;
+}
+
+.home__btn2:hover {
+    color: #ff9635;
+}
+
+.home__tech-section {
+    padding: 0 8rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.home__tech-section--left {
+    width: 50%;
+}
+
+.home__tech-section--left h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.home__tech-section--right {
+    display: flex;
+}
+
+.home__tech-section--right--icons {
+    font-size: 3.5rem;
+    color: #bec4c9;
+    display: flex;
+    gap: 1rem;
+}
+
+.home__hero-section {
+    height: 350px;
+    background-image: linear-gradient(to right, #007991e9, #007991e9),
+        url("https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/10/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home__hero-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.home__hero {
+    max-width: 1200px;
+    margin: 0 8rem;
+    display: flex;
+}
+
+.home__hero-section--left {
+    width: 100%;
+    display: flex;
+    padding: 0 30px 80px 0;
+}
+
+.home__hero-section--left--box {
+    width: 33.3%;
+    color: white;
+    padding-right: 10px;
+}
+
+.home__hero-section--left--box h4 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.home__hero-section--left--box p {
+    font-weight: 300;
+}
+
+.home__hero-section--right {
+    background-color: white;
+    flex-basis: 45%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__hero-section--right h4 {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.home__hero-section--right h6 {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+
+.home__hero-section--btn2 {
+    display: flex;
+    align-items: center;
+    transition: all 0.25s;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.home__whyus-section {
+    padding: 100px 0;
+    margin: 0 8rem;
+    display: flex;
+}
+
+.home__whyus-section--left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    padding-right: 50px;
+}
+
+.home__whyus-section--left h6 {
+    font-size: 1rem;
+}
+
+.home__whyus-section--left h2 {
+    font-size: 3rem;
+}
+
+.home__whyus-section--left p {
+    font-weight: 300;
+}
+
+.home__whyus-section--right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 1.4rem;
+}
+
+.home__whyus-section--right--box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.home__whyus-section--right--box--icon {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #ff9635;
+    border-radius: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__whyus-section--right--box--content h4 {
+    font-size: 1.4rem;
+}
+
+.home__testimonial-section {
+    background: linear-gradient(to bottom, #ecf0f2, #fefefe);
+    padding: 4rem 8rem 0rem 8rem;
+    width: 100%;
+}
+
+.home__testimonial-section div {
+    display: flex;
+}
+
+.home__testimonial-section--left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__testimonial-section--left h6 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.home__testimonial-section--left h2 {
+    font-size: 3rem;
+}
+
+.home__testimonial-section--right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.home__testimonial-section--right > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__testimonial-section--right span {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.home__testimonial-section--right--stars {
+    color: #ff9635;
+    margin-bottom: 10px;
+}
+
+.home__testimonial-section--right p {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.home__testimonial-cards {
+    margin: 6rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home__testimonial-card {
+    background-color: white;
+    width: 48%;
+    display: flex;
+    padding: 60px 40px 40px 40px;
+    box-shadow: 0 64px 200px 0 rgba(0, 0, 0, 0.08);
+    margin: 0 0 6rem 0;
+    border-radius: 16px;
+    position: relative;
+}
+
+.home__testimonial-card--content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.home__testimonial-card--content img {
+    box-shadow: 8px 16px 32px -8px rgba(0, 0, 0, 0.16);
+    border-radius: 16px 16px 16px 16px;
+    position: absolute;
+    width: 14%;
+    top: -40px;
+}
+
+.home__testimonial-card--content h6 {
+    font-size: 0.9rem;
+}
+
+.home__testimonial-card--info {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------- Join Community Section -------- */
+
+.home__join_comm-section {
+    width: 100%;
+    background-color: #ecf0f2;
+    padding: 4rem 0;
+}
+
+.home__join_comm-section div {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.home__join_comm-section h2 {
+    font-size: 3rem;
+}
+
+.home__join_comm-section input {
+    width: 400px;
+    outline: none;
+    border: 1px lightgrey;
+    padding: 1rem;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 1.05rem;
+}
+
+.home__join_comm-section a {
+    background-color: #ff9635;
+    padding: 15px 30px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.25s;
+}
+
+.home__join_comm-section a:hover {
+    background-color: #007991;
+}
